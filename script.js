@@ -105,7 +105,7 @@ function search() {
     for (var images in backgrounds) {
         console.log(searchInput.innerText.match(images))
         console.log(searchInput.value)
-        if (images.match(searchInput.value)) {
+        if (images.match(searchInput.value.toLowerCase())) {
             var result = document.createElement("button")
             result.style.height = "100px"
             result.style.width = "100px"
