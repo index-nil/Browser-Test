@@ -68,7 +68,6 @@ function leave(event) {
     var itemLabel = document.getElementById("itemLabel")
     //frame.style["border-radius"] = "10px"
     //frame.style["border-color"] = "rgb(0, 0, 0)"
-    frame.style.boxShadow = "0 0 3px"
 }
 
 function clearDiv() {
